@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+header {
+  height: 720px;
+  width: 100%;
+  text-align: center;
+  background-image: url("manhattan.png");
+  background-color: rgba(100, 100, 100, 0.5);
+  background-position: center;
+  background-size: 100%;
+  border-bottom: 5px solid #222222;
+}
+
+section {
+  padding-top: 10px;
+  height: 1000px;
+}
+
+footer {
+  height: 50px;
+  background-color: #222222;
+}
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+  color: #222222;
+  text-align: center;
+  font-size: 28pt;
+  border-bottom: 3px solid #888888;
+  padding-bottom: 1em;
+}
+
+#logo {
+  margin-top: 2em;
+  height: 344px;
+  width: 344px;
+}
+
+#logo:hover {
+  animation-name: rotate;
+  animation-duration: 10s;
+  cursor: pointer;
+}
+
+#more:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 64pt;
+  font-family: 'ThirstyScript', cursive;
+  color: #ffffff;
+}
+
+.more-img {
+  margin-top: 0;
+  width: 64px;
+  height: 64px;
+}
+
+@font-face {
+  font-family: 'ThirstyScript';
+  src: url("ThirstyScriptExtraBoldDemo.otf");
+}
+
+@keyframes rotate {
+  10% {
+    transform: rotate(360deg);
+  }
+
+  20% {
+    transform: rotate(360deg);
+  }
+
+  30% {
+    transform: rotate(360deg);
+  }
+
+  40% {
+    transform: rotate(360deg);
+  }
+
+  50% {
+    transform: rotate(360deg);
+  }
+
+  60% {
+    transform: rotate(360deg);
+  }
+
+  70% {
+    transform: rotate(360deg);
+  }
+
+  80% {
+    transform: rotate(360deg);
+  }
+
+  90% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
