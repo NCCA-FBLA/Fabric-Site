@@ -74,43 +74,11 @@ h2 {
 }
 
 @keyframes rotate {
-  10% {
-    transform: rotate(360deg);
+  from {
+    transform: rotate(0deg);
   }
-
-  20% {
-    transform: rotate(360deg);
-  }
-
-  30% {
-    transform: rotate(360deg);
-  }
-
-  40% {
-    transform: rotate(360deg);
-  }
-
-  50% {
-    transform: rotate(360deg);
-  }
-
-  60% {
-    transform: rotate(360deg);
-  }
-
-  70% {
-    transform: rotate(360deg);
-  }
-
-  80% {
-    transform: rotate(360deg);
-  }
-
-  90% {
-    transform: rotate(360deg);
-  }
-
-  100% {
+  
+  to {
     transform: rotate(360deg);
   }
 }
