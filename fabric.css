@@ -46,7 +46,7 @@ h2 {
 
 #logo:hover {
   animation-name: rotate;
-  animation-duration: 5s;
+  animation-duration: 1s;
   cursor: pointer;
 }
 
