@@ -14,6 +14,9 @@ header {
   background-position: center;
   background-size: 100%;
   border-bottom: 5px solid #222222;
+  animation-name: background;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 section {
@@ -51,7 +54,9 @@ h2 {
 }
 
 #more-img:hover {
-  transform: scale(1.1, 1.1);
+  animation-name: scale;
+  animation-duration: 0.4s;
+  cursor: pointer;
 }
 
 .title {
@@ -82,3 +87,26 @@ h2 {
     transform: rotate(360deg);
   }
 }
+
+@keyframes scale {
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@keyframes background {
+  50% {
+    background: url('manhattan-pink.png');
+    background-position: center;
+    background-size: 100%;
+  }
+  100% {
+    background: url('manhattan.png');
+    background-position: center;
+    background-size: 100%
+  }
+}
+
